@@ -1,0 +1,244 @@
+/* start login*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background:#f4f4f4;
+    font-size: 16px;
+   
+}
+
+.login{
+    width: 300px;
+    margin: 100px auto;
+}
+.login h5{
+  text-align: center;
+}
+input{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #eaeaea;
+
+}
+
+/* end login*/
+
+/* start navbar*/
+.col-sm-10 {
+    position: relative;
+}
+.star{
+   
+        font-size: 30px;
+        color: red;
+        top: 0px;
+        position: absolute;
+        right: 35px;
+
+}
+
+.navbar{
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.navbar-dark {
+    font-size: 1em;
+   
+}
+
+.dropdown-menu {
+    background-color: #70b6f0;
+   min-width: 200px;
+    
+}
+.dropdown-item{
+    color: white;
+    text-align: center;
+
+}
+/* end navbar*/
+
+
+/* start member*/
+h1{
+    font-size: 55px;
+    margin: 40px 0;
+    font-weight: bold;
+    color: #666;
+
+}
+.main-table{
+    box-shadow: 0 3px 15px #ccc;
+}
+.main-table td{
+    background-color:#fff;
+    vertical-align: middle ;
+}
+.main-table tr:first-child td{
+background-color: #333;
+color: #fff;
+font-size: 20px;
+font-weight: 400;
+}
+ .btn{
+    padding: 3px 10px;
+    border-radius:7px;
+    margin:2px;
+}
+/* end member */
+.home-stats .stat{
+    background-color: #eee;
+    border: 1px solid #ccc;
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+}
+.home-stats .members{
+    background-color: #3498db;
+}
+.home-stats .pending{
+    background-color: #c03920;
+}
+.home-stats .items{
+    background-color: #d35400;
+}
+.home-stats .comments{
+    background-color: #763fb1;
+}
+.home-stats .stat span { 
+    display: block;
+    font-size: 35px;
+}
+.home-stats .stat span a { 
+   text-decoration: none;
+   color: white;
+}
+
+.latest .stat{
+    background-color: #7e7588;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+    color: white;
+    
+}
+
+.latest .stat span{ 
+    display: block;
+    font-size: 25px;
+    margin-bottom: 5px;
+    
+}
+
+.latest .stat span a{
+   text-decoration:none;
+      
+}
+.latest .stat span .btn{
+    
+    display:block;
+    width: 20%;
+    border-radius: 10px;
+color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;   
+}
+
+
+.container .order a{
+    text-decoration: none;
+}
+
+
+.category .panel-body{
+    padding: 0;
+}
+.category .cat{
+    padding: 15px;
+    position: relative;
+    overflow: hidden;
+}
+.category .ordering a{
+    color: #888;
+}
+.category .cat:hover{
+    background-color: #eee;
+}
+.category .cat:hover .hideenbutton{
+    right: 10px;
+}
+.category .cat .hideenbutton{
+    position: absolute;
+    top: 15px;
+    right: -120px;
+    transition: all .5s ease-in-out;
+}
+.category .cat h3{
+margin: 0 0 10px;
+}
+.category  hr{
+    border-top: 2px dashed #4e4a4a;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.category .cat:last-of-type ~ hr{
+    display: none;
+}
+.category .cat .visible{
+    background-color: #d35400;
+    color: white;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.category .cat .comm{
+    background-color: #2c3e50;
+    color: white;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.category .cat .ads{
+    background-color: #c03920;
+    color: white;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.category .childca{
+    margin: 10px  0 10px 20px;
+    font-weight: bold;
+    color: #01b5af;
+}
+
+.category .childcat{
+    margin: 10px 0 10px 20px;
+}
+.category .childcat li{
+    margin-left: 20px;
+}
+.category .childcat li:before{
+    content: '- ';
+    color: red;
+}
+.category .showdelete{
+    display: none;
+
+}
+
+
+.main-table img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 2px dashed black;
+    
+}
